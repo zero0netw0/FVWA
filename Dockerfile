@@ -16,6 +16,6 @@ COPY ./settings.py /app/settings.py
 COPY ./templates /app/templates
 COPY ./static /app/static
 
-EXPOSE 8080
+EXPOSE 5001
 ENTRYPOINT [ "python3" ]
 CMD [ "app.py" ]
